@@ -46,7 +46,7 @@ namespace Tic_Tac_Toe
             this.bttn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bttn1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bttn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bttn1.Location = new System.Drawing.Point(39, 49);
+            this.bttn1.Location = new System.Drawing.Point(41, 49);
             this.bttn1.Name = "bttn1";
             this.bttn1.Size = new System.Drawing.Size(75, 75);
             this.bttn1.TabIndex = 0;
@@ -83,7 +83,7 @@ namespace Tic_Tac_Toe
             this.bttn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bttn4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bttn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bttn4.Location = new System.Drawing.Point(39, 130);
+            this.bttn4.Location = new System.Drawing.Point(41, 130);
             this.bttn4.Name = "bttn4";
             this.bttn4.Size = new System.Drawing.Size(75, 75);
             this.bttn4.TabIndex = 3;
@@ -119,7 +119,7 @@ namespace Tic_Tac_Toe
             this.bttn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bttn7.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bttn7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bttn7.Location = new System.Drawing.Point(39, 216);
+            this.bttn7.Location = new System.Drawing.Point(41, 212);
             this.bttn7.Name = "bttn7";
             this.bttn7.Size = new System.Drawing.Size(75, 75);
             this.bttn7.TabIndex = 6;
@@ -131,7 +131,7 @@ namespace Tic_Tac_Toe
             this.bttn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bttn8.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bttn8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bttn8.Location = new System.Drawing.Point(122, 216);
+            this.bttn8.Location = new System.Drawing.Point(122, 212);
             this.bttn8.Name = "bttn8";
             this.bttn8.Size = new System.Drawing.Size(75, 75);
             this.bttn8.TabIndex = 7;
@@ -143,7 +143,7 @@ namespace Tic_Tac_Toe
             this.bttn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bttn9.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bttn9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bttn9.Location = new System.Drawing.Point(204, 216);
+            this.bttn9.Location = new System.Drawing.Point(204, 212);
             this.bttn9.Name = "bttn9";
             this.bttn9.Size = new System.Drawing.Size(75, 75);
             this.bttn9.TabIndex = 8;

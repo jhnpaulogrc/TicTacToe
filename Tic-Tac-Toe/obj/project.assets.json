@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\Downloads\\OOP\\Tic-Tac-Toe\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
+      "projectUniqueName": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\Downloads\\OOP\\Tic-Tac-Toe\\TicTacToe\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
       "projectName": "Tic-Tac-Toe",
-      "projectPath": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\Downloads\\OOP\\Tic-Tac-Toe\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
+      "projectPath": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\Downloads\\OOP\\Tic-Tac-Toe\\TicTacToe\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
       "packagesPath": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\Downloads\\OOP\\Tic-Tac-Toe\\Tic-Tac-Toe\\obj\\",
+      "outputPath": "C:\\Users\\Pau.DESKTOP-O7PKKNO\\Downloads\\OOP\\Tic-Tac-Toe\\TicTacToe\\Tic-Tac-Toe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pau.DESKTOP-O7PKKNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
