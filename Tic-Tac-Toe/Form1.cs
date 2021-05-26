@@ -12,6 +12,7 @@ namespace Tic_Tac_Toe
 {
     public partial class Form1 : Form
     {
+        bool PlayerInput = true; 
         public Form1()
         {
             InitializeComponent();
@@ -20,10 +21,22 @@ namespace Tic_Tac_Toe
         {
 
         }
-
-        private void bttn1_Click(object sender, EventArgs e)
+        private void Click_Input(object sender, EventArgs e)
         {
-            bttn1.Text = "X";
+            Button Input = (Button)sender;
+
+            if (PlayerInput)
+            {
+                Input.Text = "X";
+            }
+            else
+            {
+                Input.Text = "O";
+            }
+            PlayerInput = !PlayerInput;
+            Input.Enabled = false;
+
+            
         }
     }
 }
