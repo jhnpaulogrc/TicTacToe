@@ -12,6 +12,7 @@ namespace Tic_Tac_Toe
 {
     public partial class Form1 : Form
     {
+        //Declaration of the Variables and Setting the Player's Input in Bool True in nature
         bool PlayerInput = true;
         public Form1()
         {
@@ -21,6 +22,8 @@ namespace Tic_Tac_Toe
         {
 
         }
+
+        // Code for the input of the players
         private void Click_Input(object sender, EventArgs e)
         {
             Button Input = (Button)sender;
@@ -36,6 +39,7 @@ namespace Tic_Tac_Toe
             PlayerInput = !PlayerInput;
             Input.Enabled = false;
 
+         // Code for the checking of winners in the game
             if (((bttn1.Text == "X") && (bttn2.Text == "X") && (bttn3.Text == "X")) ||
                ((bttn4.Text == "X") && (bttn5.Text == "X") && (bttn6.Text == "X")) ||
                ((bttn7.Text == "X") && (bttn8.Text == "X") && (bttn9.Text == "X")))
@@ -70,7 +74,17 @@ namespace Tic_Tac_Toe
             {
                 MessageBox.Show("Player 2 Wins!");
             }
-            else if (false)
+
+         // Code if ever the match is draw
+            if (((bttn1.Text == "X") || (bttn1.Text == "O") && (bttn1.Enabled == false))&&
+               ((bttn2.Text == "X") || (bttn2.Text == "O") && (bttn2.Enabled == false))&&
+               ((bttn3.Text == "X") || (bttn3.Text == "O") && (bttn3.Enabled == false))&&
+               ((bttn4.Text == "X") || (bttn4.Text == "O") && (bttn4.Enabled == false))&&
+               ((bttn5.Text == "X") || (bttn5.Text == "O") && (bttn5.Enabled == false))&&
+               ((bttn6.Text == "X") || (bttn6.Text == "O") && (bttn6.Enabled == false))&&
+               ((bttn7.Text == "X") || (bttn7.Text == "O") && (bttn7.Enabled == false))&&
+               ((bttn8.Text == "X") || (bttn8.Text == "O") && (bttn8.Enabled == false))&&
+               ((bttn9.Text == "X") || (bttn9.Text == "O") && (bttn9.Enabled == false)))
             {
                 MessageBox.Show("Draw!");
             }
